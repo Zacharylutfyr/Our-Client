@@ -96,6 +96,9 @@ html {
 .what-they-said .container-fluid .container .what-they-said-core .carousel #carouselExampleDark .carousel-inner .carousel-item .content-carousel {
   display: flex;
 }
+.what-they-said .container-fluid .container .what-they-said-core .carousel #carouselExampleDark .carousel-inner .carousel-item .content-carousel img {
+  border-radius: 50%;
+}
 .what-they-said .container-fluid .container .what-they-said-core .carousel #carouselExampleDark .carousel-inner .carousel-item .content-carousel .scarlet-witch-text h5 {
   font-weight: 700;
   font-size: 25px;
@@ -138,19 +141,35 @@ html {
   }
   .header .container-fluid .container .heading .left-header h1 {
     font-weight: 700;
-    font-size: 37px;
+    font-size: 20px;
     color: #0d1c37;
   }
   .header .container-fluid .container .heading .left-header p {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 12px;
     color: #6b717c;
   }
   .header .container-fluid .container .heading .right-header {
     display: flex;
     justify-content: start;
-    width: 280px;
-    height: 300px;
+    width: 230px;
+    height: 230px;
+  }
+  .logo .container-fluid .logo-core img {
+    width: 40%;
+    height: 40%;
+  }
+  .what-they-said .container-fluid .container .what-they-said-core h1 {
+    font-size: 20px;
+  }
+  .what-they-said .container-fluid .container .what-they-said-core p {
+    font-size: 12px;
+  }
+  .what-they-said .container-fluid .container .what-they-said-core .carousel #carouselExampleDark .carousel-inner .carousel-item .content-carousel {
+    display: block;
+  }
+  .what-they-said .container-fluid .container .what-they-said-core .carousel #carouselExampleDark .carousel-inner .carousel-item .scarlet-witch-text-paragraf {
+    display: none;
   }
   .contact-us .container-fluid {
     padding: 20px;
@@ -168,4 +187,4 @@ html {
   .footer .container-fluid .container .footer-core p {
     font-size: 70%;
   }
-}
+}/*# sourceMappingURL=style.css.map */
